@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        .destaque {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container Principal -->
+    <div class="titulo">
+        <h2>Formulário de Cadastro</h2>
+        <p>Campos Marcados com <span style="color: red;">*</span>
+            São obrigatórios</p>
+    </div>
+
+    <!-- Ínicio de Formulário -->
+    <form>
+        <div class="campo">
+            <label for="nome">Nome <span class="destaque">*</span></label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="campo">
+            <label for="idade">Idade <span class="destaque">*</span></label>
+            <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+        </div>
+        <div class="campo">
+            <label for="E-mail">E-mail <span class="destaque">*</span></label>
+            <input type="Mail" name="E-mail" id="E-mail" placeholder="Digite seu E-mail">
+        </div>
+        </div>
+        <div class="campo">
+            <label for="Telefone">Telefone <span class="destaque">*</span></label>
+            <input type="tel" name="Telefone" id="Telefone" placeholder="(11) 99999-9999">
+        </div>
+        <div class="campo">
+            <label for="Gênero">Gênero <span class="destaque">*</span></label>
+            <select name="Gênero" id="Gênero" required>
+                <option value="" disabled selected hidden>Selecione</option>
+                <option value="F">F</option>
+                <option value="M">M</option>
+                <option value="O">O</option>
+            </select>
+            <div class="botao">
+            <button type="submit">Cadastrar</button>
+             </div>
+
+    </form>
+</body>
+
+</html>
