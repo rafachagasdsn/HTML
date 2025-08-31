@@ -1,0 +1,43 @@
+.text-ginda-paragrafo1 {
+    color: rgb(0, 0, 0);
+}
+
+.text-feirinha-paragrafo1 {
+    color: rgb(0, 0, 0);
+}
+
+.txt-feirinha-do-alto2 {
+    color: rgb(0, 0, 0)
+
+}
+
+.txt-feirinha-do-alto-paragrafo2 {
+    color: rgb(0, 0, 0);
+}
+
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+ul.centralizar {
+    list-style-position: inside; 
+    padding-left: 0; 
+}
+
+.linha-colorida {
+  border-top: 1px solid rgb(0, 0, 0); 
+  border-color: rgb(0, 0, 0);         
+}
+
+body {
+  background-color: rgb(118, 134, 139); 
+}
+
+.borda-imagem {
+    border: 5px solid #000000; 
+}
